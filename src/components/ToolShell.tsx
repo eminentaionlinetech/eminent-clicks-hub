@@ -79,7 +79,7 @@ export function ToolShell({ tool, onClose }: { tool: Tool; onClose: () => void }
           <div className="leading-none">
             <p className="font-display text-[15px] font-semibold tracking-tight">{tool.name}</p>
             <p className="mt-1 font-mono text-[10px] tracking-wide text-mute">
-              ACTIVE \u00b7 {formatNaira(tool.price)} PAID
+              ACTIVE · {formatNaira(tool.price)} PAID
             </p>
           </div>
         </div>
